@@ -1,0 +1,9 @@
+{
+  "name": "shareables-backend",
+  "version": "0.0.1",
+  "description": "Backend service for shareables app.",
+  "main": "src/index.ts",
+  "scripts": {},
+  "author": "Kirin Patel <kirinpatel@gmail.com>",
+  "license": "MIT"
+}
