@@ -1,8 +1,8 @@
 import bodyparser from "body-parser";
-import express, { Response, Request } from "express";
+import express from "express";
 import HealthCheckRoute from "./routes/healthcheck";
 
-const PORT = process.env.port || 8000;
+const PORT = process.env.port || 8081;
 
 const app = express();
 
