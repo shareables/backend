@@ -4,8 +4,12 @@
   "description": "Backend service for shareables app.",
   "main": "src/index.ts",
   "scripts": {
+    "clear": "rm -rf ./dist",
+    "prebuild": "npm run lint",
+    "build": "npm run clear && tsc",
     "dev": "nodemon --watch src -e ts,tsx --exec ts-node .",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "start": "node ./dist/index.js"
   },
   "author": "Kirin Patel <kirinpatel@gmail.com>",
   "license": "MIT",
